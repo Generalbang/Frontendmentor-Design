@@ -1,0 +1,90 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-size: medium;
+    font-weight: lighter;
+}
+.main{
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    padding: auto;
+    width: 450px;
+}
+.main-img svg{
+    border-radius: 8px 8px 0 0;
+    width: 450px;
+}
+.other{
+    width: 400px;
+    text-align: center;
+    margin: 25px;
+    color: #717FA6;
+    
+    font-weight: light;
+}
+.plan{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+.music-plan{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 15px;
+}
+.music-plan:hover{
+    background-color: #DFE5FB;
+    justify-content: space-around;
+    border-radius: 8px;
+    height: 65px;
+    box-shadow: 2px 2px 2px 2px #717FA6;
+}
+a{
+    text-decoration: none;
+}
+.change{
+    margin-top: 10px;
+}
+.pay{
+    width: 350px;
+    color: #DFE6FB;
+    
+}
+.payment{
+    width: 400px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 8px;
+    display: flex;
+    
+}
+.pay1{
+    color: white;
+   margin-top: 12px;
+   margin-left: 10px;
+}
+.pay2{
+    color: black;
+}
+.pay2:hover{
+    
+    color: #717FA6;
+}
+.bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+b ,h3{
+    color: black;
+}
+.payment:hover{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(28, 28, 51);
+    border-radius: 8px;
+    display: flex;
+}
