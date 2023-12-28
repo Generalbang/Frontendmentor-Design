@@ -1,0 +1,106 @@
+:root{
+    --fontColor: hsl(0, 0%, 100%);
+    --fontColorSmall: hsl(217, 12%, 63%);
+    --fontColorLar: hsl(216, 12%, 54%);
+    --bgColor: hsl(213, 19%, 18%);
+    --bodyColor: hsl(216, 12%, 8%);
+    --orgColor: hsl(25, 97%, 53%)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.whole{
+    height: 98vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bodyColor);
+}
+main{
+    width: 350px;
+    height: 50vh;
+    padding: 25px;
+    background-color: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    border-radius: 8px;
+}
+.container{
+    /* display: none; */
+    text-decoration: none;
+}
+.thanks{
+    height: 65%;
+    text-align: center;
+    /* display: none; */
+}
+.rating{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    border: none;
+    
+    border-radius: 50%;
+    font-weight: bolder;
+    background-color: color-mix(in srgb, var(--fontColorLar) 20%, var(--bgColor) 80%);
+    color: var(--fontColorSmall);
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: var(--orgColor);
+    color: white;
+}
+.circle:focus{
+    /* color: color-mix(in srgb, var(--fontColorLar) 20%, var(--bgColor) 80%); */
+    color: var(--fontColor);
+    background-color: var(--fontColorSmall);
+}
+.btn{
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: var(--orgColor);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: var(--orgColor);
+}
+h2{
+    color: var(--fontColor);
+}
+p{
+    color: var(--fontColorSmall);
+}
+.rate{
+    height: 35px;
+    background-color: color-mix(in srgb, var(--fontColorLar) 20%, var(--bgColor) 80%);
+    color: var(--orgColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.img{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: color-mix(in srgb, var(--fontColorLar) 20%, var(--bgColor) 80%);
+}
+
+.hide{
+    display: none;
+}
